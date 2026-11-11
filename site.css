@@ -180,6 +180,11 @@ a.call{color:inherit}
 #qf .err{display:none;background:#FBEAEA;color:#7A1F1F;border-radius:6px;padding:.8rem 1rem;margin-bottom:1rem}
 #qf .err.show{display:block}
 
+.rvs{columns:3 300px;column-gap:1rem}
+.rv{break-inside:avoid;margin:0 0 1rem;background:#fff;border:1px solid var(--line,#dfe3ea);border-radius:6px;padding:1rem 1.1rem}
+.rv .st{color:var(--gold,#C9A227);letter-spacing:.1em}
+.rv p{font-size:.93rem;margin:.5rem 0}
+.rv figcaption{font-size:.82rem;color:var(--ink-2,#4a5568)}
 /* service pages */
 .offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .offer{border:1px solid var(--line,#dfe3ea);border-radius:6px;padding:1.1rem 1.2rem;background:#fff}
